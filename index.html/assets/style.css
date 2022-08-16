@@ -1,15 +1,55 @@
+ */ html {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
  body {
    background-color: purple;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 150%;
+ }
+  
+ /* main {
+   display: flex;
+   flex-wrap: wrap;
+ } */
+
+ header {
+   padding: 20px;
+   background-color: blueviolet;
  }
 
  h1 {
-  text-align: center;
+  color:aliceblue;
+  display: flex;
+  justify-content: center;
  }
+
+ nav {
+   justify-content: right;
+   margin-bottom: 50px;
+   display: flex;
+   padding: 12px;
+   color: blue;
+ }
+
+  nav a {
+    text-decoration: none;
+
+  }
+
+  img {
+    margin: 8px;
+  }
 
  h2 {
-   text-align: right;
+   width:100%;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
  }
 
-  h3 {
-   margin-left: 100px;
-  }
+  #about-me {
+  text-align: center;
+ }
