@@ -10,41 +10,57 @@
    line-height: 150%;
  }
   
- /* main {
+  /* main { 
    display: flex;
    flex-wrap: wrap;
- } */
+ }  */
 
  header {
    padding: 20px;
    background-color: blueviolet;
+   justify-content: space-between;
+   display: flex;
  }
 
  h1 {
   color:aliceblue;
   display: flex;
-  justify-content: center;
+  align-self: center;
  }
 
  nav {
-   justify-content: right;
-   margin-bottom: 50px;
-   display: flex;
-   padding: 12px;
-   color: blue;
+  padding: 50px;
+  width: 20%;
  }
 
   nav a {
     text-decoration: none;
-
+    color: blue;
   }
 
   img {
     margin: 8px;
+    width: 25%
+
   }
 
+  .horiseon {
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    margin-left: 200px;
+    width: 5000px;
+    font-size: 300%;
+  }
+
+ #work {
+  font-size: 300%;
+  justify-content: center;
+  display: flex;
+  text-decoration: underline;
+ }
+
  h2 {
-   width:100%;
    justify-content: center;
    display: flex;
    flex-wrap: wrap;
@@ -53,3 +69,32 @@
   #about-me {
   text-align: center;
  }
+
+  .p-about {
+    text-align: center;
+    font-size: 150%;
+  }
+
+   #Contact-Me {
+    text-align: center;
+   }
+
+   footer {
+    color: blue;
+   }
+
+   .wrapandtap {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 525px;
+   }
+   
+   .comming {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 525px;
+   }
