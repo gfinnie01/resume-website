@@ -46,11 +46,8 @@
 
   .horiseon {
     color: aliceblue;
-    align-items: center;
-    display: flex;
-    margin-left: 200px;
-    width: 5000px;
-    font-size: 300%;
+    font-size: 250%;
+    text-align: center;
   }
 
  #work {
@@ -84,17 +81,9 @@
    }
 
    .wrapandtap {
-    width:50%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: 525px;
+    text-align:center
    }
    
    .comming {
-    width:50%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: 525px;
+    text-align: center;
    }
